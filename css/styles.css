@@ -31,6 +31,12 @@ a:hover{
     color: #285616;
 
 }
+#aula1{
+    color: blue !important;
+}
+#aula2{
+    color: brown !important;
+}
 /*FORMULARIOS*/
     input[type="text"],
     input[type="email"],

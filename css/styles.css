@@ -21,11 +21,11 @@ body{
     background-image: url('img/paven.png');
 }
 a{
-    color: green;
+    color: #529125;
     text-decoration: none;
 }
 a:visited{
-    color: green;
+    color: #529125;
 }
 a:hover{
     color: #285616;
@@ -236,6 +236,7 @@ a:hover{
     margin-bottom: 15px;
     padding-top: 2px;
     padding-bottom: 2px;
+    margin-bottom: 15px;
     background: #f2f3f2;
     border: 1px solid #ccc;
     border-left: none;
@@ -273,4 +274,28 @@ a:hover{
 }
 
 /*fin Formularios barra lateral*/
+#aside div label,
+#aside div input[type="text"],
+#aside div input[type="password"],
+#aside div input[type="email"],
+#aside div a{
+    display: block;
+    width: 95%;
+    margin-top: 2px;
+    margin-bottom: 2px;
+}
+#aside div input[type="button"],
+#aside div input[type="submit"],
+#aside div button{
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    
+}
+#aside input,
+#aside label
+{
+    margin: 0px auto;
+    text-align: center;
+}
 /**/

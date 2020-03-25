@@ -214,9 +214,7 @@ a:hover{
     font-size: 14px;
     font-family: sans-serif;
 }
-#frase a{
-    margin-top: 2px;
-}
+
 #aside .widget{
     display: block;
     width: 180px;

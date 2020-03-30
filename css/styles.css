@@ -43,6 +43,15 @@ a:hover{
 #aula2{
     color: brown !important;
 }
+.red{
+    color: #9b2422;
+}
+.blue{
+    color: #0c83f2;
+}
+.orange{
+    color: #d69d2a;
+}
 /*FORMULARIOS*/
     input[type="text"],
     input[type="email"],
@@ -221,7 +230,7 @@ a:hover{
     font-family: sans-serif;
 }
 #frase{
-    clear: both;
+    /*clear: both;*/
     width: 180;
     padding: 10px;
     font-size: 14px;
@@ -327,6 +336,7 @@ a:hover{
     font-weight: normal;
     letter-spacing: 1px;
     text-align: center;
+    margin-top: -20px;
     padding-top: 20px;
     border-bottom: 1px solid #ccc;
 }
@@ -348,4 +358,13 @@ a:hover{
 #Sections .date{
     font-size: 14px;
     color: gray;
+}
+#sections .stickersOne,
+#sections .stickersTwo{
+    position: absolute;
+    margin-top: -38px;
+    z-index: 0;
+}
+#sections .stickersTwo{
+    margin-left:860px ;
 }
